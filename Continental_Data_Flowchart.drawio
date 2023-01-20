@@ -1,47 +1,149 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T15:06:23.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="GUZ4pccP3e-eXDw8W740" type="github">
-  <diagram id="yCp3yy1CDkCnGNzbleE7" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2023-01-20T15:46:35.803Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="MkkgWOQcD1Pf_LW_FqEP" type="github" pages="2">
+  <diagram id="yCp3yy1CDkCnGNzbleE7" name="main">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oboSt407GrpLVynpOdHt-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="oboSt407GrpLVynpOdHt-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="50" as="sourcePoint" />
+            <mxPoint x="390" y="70" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oboSt407GrpLVynpOdHt-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="220" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oboSt407GrpLVynpOdHt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-2" target="oboSt407GrpLVynpOdHt-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oboSt407GrpLVynpOdHt-2" value="User enters file name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="120" width="140" height="70" as="geometry" />
+          <mxGeometry x="330" y="140" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oboSt407GrpLVynpOdHt-7" value="FileNotFound" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-4">
+        <mxCell id="oboSt407GrpLVynpOdHt-10" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="270" as="targetPoint" />
+            <mxPoint x="400" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oboSt407GrpLVynpOdHt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-4" target="oboSt407GrpLVynpOdHt-9">
+        <mxCell id="wlAmiefyty3tiZnHM9mg-1" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-4" target="oboSt407GrpLVynpOdHt-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oboSt407GrpLVynpOdHt-4" value="Try to open file" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="230" width="80" height="80" as="geometry" />
+        <mxCell id="oboSt407GrpLVynpOdHt-4" value="can file be opened?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oboSt407GrpLVynpOdHt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-6" target="oboSt407GrpLVynpOdHt-2">
+        <mxCell id="oboSt407GrpLVynpOdHt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="160" as="targetPoint" />
+            <mxPoint x="400" y="120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="100" y="160" />
+              <mxPoint x="225" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oboSt407GrpLVynpOdHt-6" value="tell user file could not be opened" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="240" width="150" height="60" as="geometry" />
+          <mxGeometry x="150" y="255" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oboSt407GrpLVynpOdHt-9" value="parse_file()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="220" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="oboSt407GrpLVynpOdHt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-12" target="oboSt407GrpLVynpOdHt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oboSt407GrpLVynpOdHt-12" value="create list to store continent objects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oboSt407GrpLVynpOdHt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oboSt407GrpLVynpOdHt-13" value="parse_file(file, continent_list)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oboSt407GrpLVynpOdHt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oboSt407GrpLVynpOdHt-20" target="oboSt407GrpLVynpOdHt-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oboSt407GrpLVynpOdHt-18" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oboSt407GrpLVynpOdHt-20" value="print_data()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8TNFRu_faSdTihl1HD-S" name="parse_file()">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Fp9JlUa-YeowczUPUpx-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XJ_a5BNZuWzltndVChw8-1" target="2Fp9JlUa-YeowczUPUpx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJ_a5BNZuWzltndVChw8-1" value="start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Fp9JlUa-YeowczUPUpx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="Ff4F8dltD4HQ5s6na6rR-16" target="u2p1NarR3WCm8fMuFPHF-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Fp9JlUa-YeowczUPUpx-2" value="get file object from main" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="110" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2p1NarR3WCm8fMuFPHF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2p1NarR3WCm8fMuFPHF-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2p1NarR3WCm8fMuFPHF-2" value="get line from file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2p1NarR3WCm8fMuFPHF-5" target="Ff4F8dltD4HQ5s6na6rR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2p1NarR3WCm8fMuFPHF-5" value="split(line)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ff4F8dltD4HQ5s6na6rR-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-1" value="create country object with data from split(line)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ff4F8dltD4HQ5s6na6rR-5" target="Ff4F8dltD4HQ5s6na6rR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-5" value="link country object to its continent object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-9" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ff4F8dltD4HQ5s6na6rR-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="700" />
+              <mxPoint x="510" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-12" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="740" as="sourcePoint" />
+            <mxPoint x="400" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-6" value="reached end of file?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-14" value="return updated continent object list" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="2Fp9JlUa-YeowczUPUpx-2" target="Ff4F8dltD4HQ5s6na6rR-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="170" as="sourcePoint" />
+            <mxPoint x="400" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ff4F8dltD4HQ5s6na6rR-16" value="get list of continent objects from main" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
