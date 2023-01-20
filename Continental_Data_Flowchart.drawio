@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T18:03:47.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nb2Uiq4l1kMK1iCsxV_z" version="20.8.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-01-20T18:15:02.948Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Ju2x7DINboR1mnYSeJGc" version="20.8.5" type="github" pages="7">
   <diagram id="yCp3yy1CDkCnGNzbleE7" name="main">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -400,7 +400,7 @@
         <mxCell id="Zgyhbi3K8vPe4zekZTQw-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Zgyhbi3K8vPe4zekZTQw-21" target="Zgyhbi3K8vPe4zekZTQw-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zgyhbi3K8vPe4zekZTQw-21" value="int end = len(string) - 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Zgyhbi3K8vPe4zekZTQw-21" value="window_size = len(string to split on)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zgyhbi3K8vPe4zekZTQw-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Zgyhbi3K8vPe4zekZTQw-23">
@@ -408,7 +408,7 @@
             <mxPoint x="410" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zgyhbi3K8vPe4zekZTQw-23" value="window_size = len(string to split on)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Zgyhbi3K8vPe4zekZTQw-23" value="int end = len(string) - window_size" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zgyhbi3K8vPe4zekZTQw-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Zgyhbi3K8vPe4zekZTQw-26" target="Zgyhbi3K8vPe4zekZTQw-21">
@@ -420,7 +420,7 @@
         <mxCell id="Zgyhbi3K8vPe4zekZTQw-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Zgyhbi3K8vPe4zekZTQw-28" target="Zgyhbi3K8vPe4zekZTQw-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zgyhbi3K8vPe4zekZTQw-28" value="while i &amp;lt; len(string) - window_size" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="Zgyhbi3K8vPe4zekZTQw-28" value="while i &amp;lt;&amp;nbsp; end" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="360" y="710" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zgyhbi3K8vPe4zekZTQw-32" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Zgyhbi3K8vPe4zekZTQw-29" target="Zgyhbi3K8vPe4zekZTQw-31">
@@ -464,20 +464,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zgyhbi3K8vPe4zekZTQw-42" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Zgyhbi3K8vPe4zekZTQw-38" target="Zgyhbi3K8vPe4zekZTQw-41">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Zgyhbi3K8vPe4zekZTQw-42" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Zgyhbi3K8vPe4zekZTQw-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Zgyhbi3K8vPe4zekZTQw-38" value="is i &amp;gt;= len(string)?" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="Zgyhbi3K8vPe4zekZTQw-38" value="is i &amp;gt;= end" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="370" y="1220" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Zgyhbi3K8vPe4zekZTQw-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Zgyhbi3K8vPe4zekZTQw-41" target="Zgyhbi3K8vPe4zekZTQw-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zgyhbi3K8vPe4zekZTQw-41" value="end while loop" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=12;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1350" width="100" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="Zgyhbi3K8vPe4zekZTQw-43" value="return result" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1510" width="80" height="60" as="geometry" />
+          <mxGeometry x="370" y="1350" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
