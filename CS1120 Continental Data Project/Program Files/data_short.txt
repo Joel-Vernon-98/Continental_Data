@@ -1,0 +1,4 @@
+United Arab Emirates, AED, 98, 4, Asia, Arabic
+Australia, AUD, 97, 11, Australia, English, English
+Hungary, HUF, 98, 1, Europe, Hungarian
+Spain, EUR, 98, 0, Europe, Spanish
